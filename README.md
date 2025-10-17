@@ -1,13 +1,41 @@
-# Bangla News Genre Classification
 
-### Description
-This project classifies Bangla news articles into different genres such as sports, politics, entertainment, and more. It uses natural language processing (NLP) and machine learning techniques to analyze and categorize news articles automatically.
+## 📘 Overview
+This project focuses on **classifying Bengali news articles** into different genres using **machine learning** techniques.  
+Bengali’s linguistic diversity makes accurate classification a challenging task.  
+To address this, I applied and compared **SVM**, **Naive Bayes**, and **XGBoost** models.
 
-### Files in this Repository
-- `BengaliNewsPaperGenreClassification.ipynb` – Jupyter notebook containing the main code for classification  
-- `AI_ Bengali Newspaper Genre Classification.pdf` – PDF report/documentation of the project
+---
 
-### How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/zrnth/Bangla-News-Genre-Classification.git
+## 🧠 Models & Results
+| Model | Accuracy |
+|--------|-----------|
+| **SVM** | **80.4%** |
+| **XGBoost** | 77.1% |
+| **Naive Bayes** | 44.4% |
+
+**Best Model:** Support Vector Machine (SVM) — achieved the highest and most balanced accuracy.
+
+---
+
+## 📊 Dataset
+- **Source:** [Kaggle - Bengali News Dataset](https://www.kaggle.com/datasets/disisbig/bengali-news-dataset)  
+- **Samples:** 11,324 Bengali news articles  
+- **Target Classes:** sports, state, kolkata, entertainment, international, national  
+
+---
+
+## 🚀 How to Run
+```bash
+git clone https://github.com/zrnth/bengali-news-genre-classification.git
+cd bengali-news-genre-classification
+pip install -r requirements.txt
+python main.py
+
+
+## 📰 Bengali Newspaper Genre Classification  
+**Course:** CSE422 (Artificial Intelligence)  
+**Author:** [zrnth](https://github.com/zrnth)  
+
+
+---
+
